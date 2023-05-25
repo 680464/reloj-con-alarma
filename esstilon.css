@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(iron-man-wallpaper.jpg);
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+ 
+
+.wrap{
+    width: 90%;
+    max-width: 1000px;
+
+}
+
+.whidget {
+    width: 40%;
+    margin: 2em ;
+}
+
+.whidget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    border:#fff 4px;
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj{
+    font-family: Oswald, Arial;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+.reloj .caja-segundos{
+    display: inline-block;
+}
+
+
+.reloj .ampm{
+    font-size: 2rem;
+    display: block;
+}
+
+/*.caja-alarma {
+    text-decoration: none;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    margin-left: 55px;
+     margin-right: 500px;
+    color: white;
+    border: none;
+    padding: 70px;
+    border-radius: 5px;
+    overflow: auto;
+    
+  }
+  .caja-alarma:hover {
+    box-shadow: 0 0 5px rgba(164, 56, 56, 0.5);
+    background-color:rgba(255, 0, 0, 0.2);
+    border: #fff 3px;
+  }
+
+ /* #stop{
+    background: rgba(0, 0, 0, .5);
+    margin-left: 55px;
+    color: white;
+    border: none;
+    padding: 40px 150px;
+    border-radius: 5px;
+    overflow: auto;
+    
+  }
+  #stop:hover {
+    box-shadow: 0 0 5px rgba(164, 56, 56, 0.5);
+    background-color:rgba(255, 0, 0, 0.2);
+    border: #fff 3px;
+  }*/
+
+#alarma{
+    
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    margin-left: 30px;
+     margin-right: 500px;
+    color: white;
+    border: none;
+    padding: 40px 50px;
+    border-radius: 5px;
+    overflow: auto;
+    
+
+}
+#alarma:hover {
+    box-shadow: 0 0 5px rgba(207, 204, 204, 0.5);
+    background-color:rgba(204, 57, 57, 0.193);
+    border: #fff 3px;
+  }
+
+
+#btna{ 
+    background: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 40px 50px;
+    border-radius: 5px;
+    overflow: auto;
+    
+
+}
+
+#btna:hover{
+    box-shadow: 0 0 5px rgba(207, 204, 204, 0.5);
+    background-color:rgba(204, 57, 57, 0.193);
+    border: #fff 3px;
+}
+
+
+#btnDetener{
+    background: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    overflow: auto;
+    
+}
+
+#btnDetener:hover{
+    box-shadow: 0 0 5px rgba(207, 204, 204, 0.5);
+    background-color:rgba(204, 57, 57, 0.193);
+    border: #fff 3px;
+}
+
+#btnBorrarTodo{
+    background: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    overflow: auto;
+    
+}
+
+#btnBorrarTodo:hover{
+    box-shadow: 0 0 5px rgba(207, 204, 204, 0.5);
+    background-color:rgba(204, 57, 57, 0.193);
+    border: #fff 3px;
+}

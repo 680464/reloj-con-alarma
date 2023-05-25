@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="esstilon.css">	<meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="whidget">
+    <div class="fecha">
+        <p id="diaSemana" class="diaSemana"></p>
+        <p id="dia"  class="dia"></p>
+        <p>de</p>
+        <p id="mes" class="mes"></p>
+        <p>del</p>
+        <p id="year" class="year"></p>
+    </div>
+       <div class="reloj">
+        <p id="horas" class="horas"></p>
+        <p>:</p>
+        <p id="minutos" class="minutos"></p>
+        <p>:</p>
+        <div class="caja-segundos">
+          <p id="ampm" class="ampm"></p>
+          <p id="segundos" class="segundos"></p>
+        </div>
+
+       </div>
+  </div>
+  
+
+  <form id="alarma">
+    <h2>Lista de alarmas</h2>
+    <ol  id="listordenada">
+
+    </ol>
+    <label for="hour">H:</label>
+    <input type="number" name="hour" id="hour" min="0" max="23" value="0">
+    <label for="minute">M:</label>
+    <input type="number" name="minute" id="minute" min="0" max="59" value="0">
+    <label for="second">S:</label>
+    <input type="number" name="second" id="second" min="0" max="59" value="0">
+    <div class="fin"></div>
+    <button id="btna" type="button">Mi alarma</button>
+    <button id="btnDetener" type="button">Detener Alarma</button>
+    <button id="btnBorrarTodo" type="button">borrar</button>
+
+
+    <audio id="audioAlarma" src="SnapSave.io - AC_DC - Shoot to Thrill (128 kbps).mp3"></audio>
+
+  </form>
+  
+<!-- <form id="alarma">
+  <h2>lista de alarma</h2>
+  <ol id="listordenada"></ol>
+  <label for="hour">H:</label>
+  <input type="number" name="hour" id="hour" min="0" max="23" value="0" >
+  <label for="minute">M:</label>
+  <input type="number" name="minute" id="minute" min="0" max="59" value="0">
+  <label for="second">S</label>
+  <input type="number" name="minute" id="minute" min="0" max="59" value="0">
+  <div class="fin"></div>
+  <button id="btna" type="button">mi alarma</button>
+ </form>
+</div> -->
+
+
+    <script src="ejerfecha.js"></script>
+</body>
+</html>
